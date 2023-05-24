@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```python
 model = resnet50(num_classes=1000)
 
-pretrained_model = "CheSS pretrained model path"
+pretrained_model = "IFA pretrained model path"
 if pretrained_model is not None:
     if os.path.isfile(pretrained_model):
         print("=> loading checkpoint '{}'".format(pretrained_model))
